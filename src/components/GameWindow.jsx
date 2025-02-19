@@ -291,6 +291,8 @@ const parseResponse = (response) => {
     - Conference skills: ${Object.keys(character.role.stats).join(', ')}
     - ${eventType === 'Confrontation' ? 'USE CONFRONTATION SKILLS' : 'USE CONFERENCE SKILLS'}
     - NEVER USE MARKDOWN. ONLY PLAIN TEXT WITH || AND | DELIMITERS
+    - The tension of the call goes from 0 t0 10 based on the Meter, currently it is at ${meter},
+    if it is lower than 3 the call should be lighthearted and fun, if it is higher than 5 there is a conflict.
 
     EXAMPLE FORMAT:
     ${eventType} || The client questions... || 
