@@ -293,6 +293,7 @@ const parseResponse = (response) => {
     - NEVER USE MARKDOWN. ONLY PLAIN TEXT WITH || AND | DELIMITERS
     - The tension of the call goes from 0 t0 10 based on the Meter, currently it is at ${meter},
     if it is lower than 3 the call should be lighthearted and fun, if it is higher than 5 there is a conflict.
+    - If the Last Roll was a failure, the event text should show the player fumbling.
 
     EXAMPLE FORMAT:
     ${eventType} || The client questions... || 
