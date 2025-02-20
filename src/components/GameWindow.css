@@ -206,7 +206,9 @@
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
     z-index: 1000;
+    overflow-y: auto;
     max-width: 800px;
+    max-height: 80vh;
     width: 90%;
   }
   
