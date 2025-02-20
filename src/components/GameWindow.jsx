@@ -441,7 +441,7 @@ const parseResponse = (response) => {
     <div className="game-window">
       <div className="ascii-container">
       <ASCIIArt success={lastRoll?.success} />
-      <div className="meter-display">Tension Level: {meter}/10</div>
+      <div className="meter-display">{eventType} - Tension Level: {meter}/10</div>
       
       {showLevelUpModal && <div className="modal-backdrop"><LevelUpModal
         skills={character.role.stats}
